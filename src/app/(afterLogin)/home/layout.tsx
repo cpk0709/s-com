@@ -3,5 +3,10 @@ export default async function HomeLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <div>{children}</div>;
+  return (
+    <div>
+      <h1>Home Layout</h1>
+      {children}
+    </div>
+  );
 }
