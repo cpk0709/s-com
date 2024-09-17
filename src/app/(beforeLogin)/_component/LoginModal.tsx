@@ -64,7 +64,7 @@ export default function LoginModal() {
           <div className={style.message}>{message}</div>
           <div className={style.modalFooter}>
             <button className={style.actionButton} disabled={!id && !password}>
-              로그인 하기
+              로그인
             </button>
           </div>
         </form>
