@@ -2,6 +2,7 @@
 
 import style from './signup.module.css';
 import {useRouter} from "next/navigation";
+import React from 'react';
 import {ChangeEventHandler, FormEventHandler, useState} from "react";
 
 export default function SignupModal() {
