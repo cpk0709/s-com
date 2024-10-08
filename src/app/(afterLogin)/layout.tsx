@@ -2,6 +2,7 @@ import style from "@/app/(afterLogin)/layout.module.css";
 import Image from 'next/image';
 import Link from 'next/link';
 import ZLogo  from '../../../public/zlogo.png'
+import NavMenu from '@/app/(afterLogin)/_component/NavMenu';
 
 export default async function AfterLoginLayout({
   children,
@@ -23,6 +24,11 @@ export default async function AfterLoginLayout({
                 />
               </div>
             </Link>
+            <nav>
+              <ul>
+                <NavMenu />
+              </ul>
+            </nav>
           </div>
         </section>
       </header>
