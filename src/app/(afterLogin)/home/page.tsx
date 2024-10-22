@@ -1,5 +1,15 @@
+import style from './home.module.scss';
+
 export default function Home() {
   return (
-      <h1>Home Page</h1>
+      <main className={style.main}>
+        {/* <Tab/> */}
+        {/* <PostForm/> */}
+        {/* <Post/>
+        <Post/>
+        <Post/>
+        <Post/>
+        <Post/> */}
+      </main>
   );
 }
