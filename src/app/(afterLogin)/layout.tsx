@@ -27,7 +27,7 @@ export default async function AfterLoginLayout({
                 <NavMenu />
               </ul>
               <Link href="/compose/tweet" className={style.postButton}>
-                게시 하기
+                게시하기
               </Link>
             </nav>
             <LogoutButton />
